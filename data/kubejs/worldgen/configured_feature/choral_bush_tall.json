@@ -8,9 +8,7 @@
           "type": "minecraft:simple_state_provider",
           "state": {
             "Name": "endergetic:tall_poise_bush",
-            "Properties": {
-              "half": "lower"
-            }
+            "Properties": { "half": "lower" }
           }
         }
       },
@@ -20,17 +18,25 @@
           "type": "minecraft:simple_state_provider",
           "state": {
             "Name": "endergetic:tall_poise_bush",
-            "Properties": {
-              "half": "upper"
-            }
+            "Properties": { "half": "upper" }
           }
         }
       }
     ],
     "direction": "up",
     "allowed_placement": {
-      "type": "minecraft:matching_blocks",
-      "blocks": "minecraft:air"
+      "type": "all_of",
+      "predicates": [
+        {
+          "type": "matching_blocks",
+          "blocks": "minecraft:air"
+        },
+        {
+          "type": "matching_blocks",
+          "offset": [0, 1, 0],
+          "blocks": "minecraft:air"
+        }
+      ]
     },
     "prioritize_tip": false
   }

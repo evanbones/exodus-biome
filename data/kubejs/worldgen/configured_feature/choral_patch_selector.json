@@ -3,29 +3,66 @@
   "config": {
     "features": [
       {
-        "chance": 0.30,
+        "chance": 0.10,
         "feature": {
           "feature": "kubejs:choral_fungus",
           "placement": []
         }
       },
       {
-        "chance": 0.20,
+        "chance": 0.07,
         "feature": {
           "feature": "kubejs:choral_bush_tall",
           "placement": []
         }
       },
       {
-        "chance": 0.15,
+        "chance": 0.05,
         "feature": {
-          "feature": "kubejs:choral_bolloom_bud",
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "endergetic:bolloom_bud"
+                }
+              }
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.08,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "architects_palette:twisted_sapling"
+                }
+              }
+            }
+          },
           "placement": []
         }
       }
     ],
     "default": {
-      "feature": "kubejs:choral_bush",
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "endergetic:poise_bush"
+            }
+          }
+        }
+      },
       "placement": []
     }
   }
