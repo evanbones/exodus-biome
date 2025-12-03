@@ -59,7 +59,8 @@
     [
       "minecraft:spring_lava",
       "kubejs:choral_nylium_patch",
-      "kubejs:choral_forest_vegetation",
+      "kubejs:exodus_vegetation",
+      "kubejs:exodus_chorus_patch",
       "minecraft:twisting_vines"
     ]
   ],

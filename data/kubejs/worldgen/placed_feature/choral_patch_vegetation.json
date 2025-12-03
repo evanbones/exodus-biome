@@ -1,9 +1,4 @@
 {
-  "feature": "kubejs:choral_patch_vegetation",
-  "placement": [
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 1.0
-    }
-  ]
+  "feature": "kubejs:choral_patch_selector",
+  "placement": []
 }
