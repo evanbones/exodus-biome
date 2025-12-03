@@ -1,0 +1,9 @@
+{
+  "feature": "kubejs:choral_bushes",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1.0
+    }
+  ]
+}
